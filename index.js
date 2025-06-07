@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Simple route
 app.get('/api', async (req, res) => {
-  res.json({ message: "Hello from Global Backend! " + new Date().toISOString() });
+  res.json({ message: "Hello from My Global Backend! " + new Date().toISOString() });
 });
 
 // Launch server
